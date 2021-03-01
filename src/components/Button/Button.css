@@ -1,0 +1,22 @@
+button {
+  border: none;
+}
+button {
+  height: 2.2em;
+  font-size: 1em;
+  outline: none;
+  padding: .5em 1em;
+  color: var(--text);
+  border-radius: 1em;
+  margin: .5em;
+  cursor: pointer;
+}
+button.primary {
+ background: var(--accent-g);
+}
+button.secondary{
+  background: var(--secondary-g);
+}
+button:hover{
+  box-shadow: 0 0 6px black;
+}

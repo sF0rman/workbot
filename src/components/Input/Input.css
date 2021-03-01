@@ -1,0 +1,47 @@
+input{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  border: none;
+  padding: none;
+  margin: none;
+  outline: none;
+}
+
+.input {
+  box-sizing: border-box;
+  height: 2.2em;
+  font-size: 1em;
+  outline: none;
+  padding: .5em 1em;
+  color: var(--text);
+  border-radius: 1em;
+  margin: .8em 0;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  color: var(--panelText);
+  border: 1px solid var(--grey);
+}
+
+.input-combo-drawer{
+  border-radius: 1em;
+  background: var(--text);
+  width: inherit;
+  z-index: 100;
+  box-shadow: 0 0 3px black;
+  position: absolute;
+  display: none;
+  overflow: hidden;
+}
+
+.input-combo-option{
+  padding: 1em;
+}
+.input-combo-option:hover{
+  cursor: pointer;
+  background: var(--accent);
+}

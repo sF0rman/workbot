@@ -1,0 +1,52 @@
+.welcome {
+  width: 100%;
+  max-width: 1366px;
+  padding: 2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 1em;
+  align-content: center;
+  justify-content: space-between;
+}
+
+
+.welcome .welcome_left {
+  padding: 1em 0;
+}
+
+.welcome .welcome_left h1 {
+  font-size: 5em;
+}
+
+.welcome .welcome_left h3 {
+  font-size: 1em;
+}
+
+.welcome .panel {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-self: end;
+  align-content: center;
+}
+
+.welcome .panel button {
+  align-self: center;
+  margin: 0;
+  width: 65%;
+}
+
+.welcome .panel h1 {
+  font-size: 2.3em;
+  line-height: 1em;
+  margin: 0 0 .5em;
+}
+
+.welcome .panel p {
+  align-self: center;
+  font-size: .8em;
+}
